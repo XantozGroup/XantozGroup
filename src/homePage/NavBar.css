@@ -1,0 +1,109 @@
+.my-nav {
+    background-color: #ecf3fd;
+    padding: 9px;
+}
+.my-nav2 {
+    background-color: white;
+    padding: 15px;
+}
+.first-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+.phone-icon {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.logo {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.select {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.select span {
+    font-weight: 100;
+}
+#select-box {
+    padding: 4px;
+    width: 95px;
+    border: 1px solid #848c9a;
+    border-radius: 15px;
+    background: transparent;
+    outline: none;
+}
+.second-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+.mails {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.second-nav-txt h2 :nth-of-type(3) {
+    color: yellow;
+}
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.cart button {
+    padding: 5px;
+    width: 100px;
+    border: 1px solid #848c9a;
+    border-radius: 15px;
+    background: #183863;
+    color: white;
+    outline: none;
+}
+.my-nav3 {
+    background: #183863;
+    /* padding: 15px; */
+}
+.third-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+.lists ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.lists li {
+    background: transparent;
+    padding: 25px 10px;
+    margin: 0px;
+    list-style: none;
+    color: white;
+}
+.lists ul :hover {
+    background:#f1c119;
+}
+.glass {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background: white;
+    border: 1px solid #848c9a;
+    border-radius: 200px;
+    padding: 4px;
+}
+.input {
+    border: none;
+    outline: none;
+}
