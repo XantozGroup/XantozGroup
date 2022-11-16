@@ -50,4 +50,5 @@ body {
     background-color: #ebc737;
     color: black;
     transform: scale(1.05);
+    cursor: pointer;
 }
