@@ -1,3 +1,11 @@
-.home-bg {
-    background-image: url(../../public/assets/banner.jpg);
+body {
+    background-image: url(../assets/banner.jpg);
+}
+.home-body {
+    width: 60%;
+    margin: auto;
+}
+.home-bg{
+    display: flex;
+    justify-content: space-between;
 }
