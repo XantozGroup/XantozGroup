@@ -9,3 +9,25 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.home-text h1 {
+    color: #183863;
+    font-size:70px;
+    font-family: Righteous, cursive ;
+    font-weight: 500;
+    margin: 7rem 0 0 0;
+}
+.home-text .trend {
+    color: #ebc737;
+    font-size:70px;
+    font-weight: 600;
+    margin: 7rem 0 0 0;
+}
+.text {
+    font-size: 40px;
+    font-weight: lighter;
+}
+.text span {
+    color: #225b9d;
+    font-weight: 800;
+    font-style: oblique;
+}
