@@ -68,6 +68,9 @@
     color: white;
     outline: none;
 }
+.cart button:hover {
+    cursor: pointer;
+}
 .my-nav3 {
     background: #183863;
     /* padding: 15px; */
@@ -76,7 +79,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 65%;
     margin: auto;
 }
 .lists ul {
@@ -86,13 +89,19 @@
 }
 .lists li {
     background: transparent;
-    padding: 25px 10px;
+    padding: 15px 10px;
     margin: 0px;
     list-style: none;
     color: white;
+    text-transform: uppercase;
+    transform: translateZ(0);
+    transition: all .5s ease-in-out; 
 }
 .lists ul :hover {
     background:#f1c119;
+    color: black;
+    transform: scale(1.03);
+    cursor: pointer;
 }
 .glass {
     display: flex;

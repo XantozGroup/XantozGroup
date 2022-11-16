@@ -51,7 +51,7 @@ function NavBar() {
                     <li>Product</li>
                     <li>Fashion</li>
                     <li>Updates</li>
-                    <li>Contact Us</li>
+                    <li>Say Hi</li>
                 </ul>
             </div>
             <div className='glass'>

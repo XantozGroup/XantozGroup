@@ -10,7 +10,11 @@ function HomePage() {
           <div className='home-text'>
             <h1>XANTOZ GROUP</h1>
             <span className='trend'>Trend 2050</span>
-            <p className='text'><span>Oh Yass!</span><br /> We make outfits that suit <span>YOU.</span></p>
+            <p className='text'>
+              <span>Oh Yass!</span><br /> We make irresistible outfits that suit YOU.
+            </p>
+            <p className='collect'>Classic fashion collections 4everrr.</p>
+            <button>Trend here &#128525;</button>
           </div>
           <div className='home-pix'>
             <img src={lady} alt="lady" />

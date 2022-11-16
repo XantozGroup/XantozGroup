@@ -31,3 +31,23 @@ body {
     font-weight: 800;
     font-style: oblique;
 }
+.collect {
+    font-size: 25px;
+}
+.home-body button {
+    background: #1d37fd;
+    color: white;
+    padding: 13px 15px;
+    border: none;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    transform: translateZ(0);
+    transition: all .5s ease-in-out; 
+}
+.home-body button:hover{
+    background-color: #ebc737;
+    color: black;
+    transform: scale(1.05);
+}
