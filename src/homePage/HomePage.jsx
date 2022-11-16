@@ -4,7 +4,7 @@ import lady from '../assets/lady_img.png'
 
 function HomePage() {
   return (
-    <div>
+    <div className='home'>
       <div className='home-body'>
         <div className='home-bg'>
           <div className='home-text'>
