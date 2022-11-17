@@ -13,7 +13,6 @@
 }
 .pro-body {
     background-image: url(../assets/product_bg.jpg);
-
 }
 .product h1{
     text-align: center;
@@ -31,7 +30,7 @@
     background: #1d37fd;
     color: white;
     padding: 13px 20px;
-    margin: 5px auto 35px auto;
+    margin: 15px auto 70px auto;
     border: none;
     border-radius: 15px;
     font-size: 12px;
@@ -42,12 +41,9 @@
 }
 .product button:hover{
     background-color: #ebc737;
-    color: black;
+    color: white;
     transform: scale(1.05);
     cursor: pointer;
-}
-.card-bg {
-    
 }
 .card-cover {
     border-bottom: 1px solid gray;
