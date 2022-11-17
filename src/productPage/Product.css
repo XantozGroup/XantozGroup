@@ -1,0 +1,32 @@
+.pro-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%; 
+    max-width: 1440px;
+    gap: 30px;
+}
+.product {
+    margin: auto;
+    width: 70%;
+}
+.pro-body {
+    background-image: url(../assets/product_bg.jpg);
+
+}
+.product h1{
+    text-align: center;
+    border-bottom: 4px solid #f1c119;
+    width: 17%;
+    color: #183863;
+    margin: 3rem auto;
+}
+.card-bg {
+    
+}
+.card-cover {
+    border-bottom: 1px solid gray;
+    background-color: #f2f2f2;
+    padding: 50px 10px;
+}
