@@ -4,6 +4,7 @@ import HomePage from './homePage/HomePage'
 import About from './aboutPage/About';
 import Product from './productPage/Product';
 import Fashion from './fashionPage/Fashion';
+import News from './newsPage/News';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Product/>
       <Fashion/>
+      <News/>
     </div>
   );
 }
