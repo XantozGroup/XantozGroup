@@ -1,8 +1,37 @@
+.gen-news {
+    width: 50%;
+    margin: auto;
+}
 .gen-news h1 {
     text-align: center;
-    border-bottom: 4px solid  #ebc737;
-    width: 12%;
+    /* border-bottom: 4px solid  #ebc737; */
+    width: 25%;
     margin: auto;
     padding-top: 2.5rem;
+    padding-bottom: 2rem;
     color: #183863;
+}
+.flex-news {
+    display: flex;
+    gap: 60px;
+    margin: 2rem auto;
+    align-items: center;
+}
+.flex-news h3{
+    border-bottom: 2px solid  #ebc737;
+}
+.flex-news img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}.news-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news-p p{
+    border-bottom: 1px solid  #ebc737;
+}
+.news-p p:hover{
+    cursor: pointer;
 }
