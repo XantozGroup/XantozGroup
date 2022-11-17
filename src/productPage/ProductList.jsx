@@ -1,9 +1,10 @@
 import React from 'react'
 import ProductCard from './ProductCard'
+import './Product.css'
 
 function ProductList({userss}) {
   return (
-    <div>
+    <div className='pro-list'>
         {userss.map((userz) =>(
             <ProductCard
             key={userz.id.toString()}

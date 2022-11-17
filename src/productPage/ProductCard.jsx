@@ -1,4 +1,5 @@
 import React from 'react'
+import './Product.css'
 
 function ProductCard({item, pic, cost}) {
   return (
@@ -7,6 +8,10 @@ function ProductCard({item, pic, cost}) {
             <div className='card-cover'>
                 <img src={pic} alt="pix" />
             </div>
+            <p>
+                {item}
+            </p>
+            <p>{cost}</p>
         </div>
     </div>
   )

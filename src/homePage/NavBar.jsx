@@ -34,7 +34,7 @@ function NavBar() {
             <a href="mailto:chrixantoz@gmail.com">chrixantoz@gmail.com</a>
             </div>
             <div className='second-nav-txt'>
-                <h2>XANTOZ GROUP</h2>
+                <h2>XANTOZ FASHION CLINIC</h2>
             </div>
             <div className='cart'>
             <ShoppingCart size={20} color="#173560" weight="fill" />
