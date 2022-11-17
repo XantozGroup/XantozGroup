@@ -4,13 +4,17 @@ import lady from '../assets/lady_img.png'
 
 function HomePage() {
   return (
-    <div>
+    <div className='home'>
       <div className='home-body'>
         <div className='home-bg'>
           <div className='home-text'>
             <h1>XANTOZ GROUP</h1>
-            <span>Trend 2050</span>
-            <p><span>Oh Yass!</span> We make outfits that suit <span>YOU</span></p>
+            <span className='trend'>Trend 2050</span>
+            <p className='text'>
+              <span>Oh Yass!</span><br /> We make irresistible outfits that suit YOU.
+            </p>
+            <p className='collect'>Classic fashion collections 4everrr.</p>
+            <button>Trend here &#128525;</button>
           </div>
           <div className='home-pix'>
             <img src={lady} alt="lady" />

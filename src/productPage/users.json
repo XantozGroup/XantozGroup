@@ -1,0 +1,52 @@
+[
+    {
+      "id":1,
+      "item":"shoes, shirts, caftan, palms, suit",
+      "cost":"$50",
+      "ratings":"",
+      "pic":"../assets/shoes.png" 
+     },
+     {
+      "id": 2,
+      "item":"shoes, shirts, caftan, palms, suit",
+      "cost":"$50",
+      "ratings":"",
+      "pic":"../assets/shoes1.png" 
+     },
+     {
+       "id": 3,
+       "item":"shoes, shirts, caftan, palms, suit",
+       "cost":"$50",
+       "ratings":"",
+       "pic":"../assets/shoes2.png"
+},
+     {
+         "id": 4,
+         "item":"shoes, shirts, caftan, palms, suit",
+         "cost":"$50",
+         "ratings":"",
+         "pic":"../assets/shoes3.png"
+    },
+     {
+       "id": 5,
+       "item":"shoes, shirts, caftan, palms, suit",
+       "cost":"$50",
+       "ratings":"",
+       "pic":"../assets/shoes4.png"
+},
+     {
+       "id": 6,
+       "item":"shoes, shirts, caftan, palms, suit",
+       "cost":"$50",
+       "ratings":"",
+       "pic":"../assets/shoes5.png"
+},
+     {
+       "id": 7,
+       "item":"shoes, shirts, caftan, palms, suit",
+       "cost":"$50",
+       "ratings":"",
+       "pic":"../assets/shoes6.png"  
+     }
+ ]
+ 
