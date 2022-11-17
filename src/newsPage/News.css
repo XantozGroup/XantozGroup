@@ -1,0 +1,8 @@
+.gen-news h1 {
+    text-align: center;
+    border-bottom: 4px solid  #ebc737;
+    width: 12%;
+    margin: auto;
+    padding-top: 2.5rem;
+    color: #183863;
+}
