@@ -1,6 +1,7 @@
 .about-body {
     background: whitesmoke;
     padding-top: 50px;
+    border-bottom: 8px solid #f3a10d;
 }
 .about-bg {
     display: flex;

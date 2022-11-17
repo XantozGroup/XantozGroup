@@ -1,5 +1,6 @@
 .home {
     background-image: url(../assets/banner.jpg);
+    border-bottom:8px solid #f3a10d ;
 }
 .home-body {
     width: 60%;

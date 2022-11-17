@@ -11,6 +11,7 @@ function Product() {
         <div className='pro-user'>
         <ProductList userss={users}/>
         </div>
+        <div className='but'><button>Explore</button></div>
     </div>
     </div>
     

@@ -4,28 +4,28 @@
       "item":"shoes, shirts, caftan, palms, suit",
       "cost":"$50",
       "ratings":"",
-      "pic":"Pictures/shoes1.png" 
+      "pic":"Pictures/shoe.png" 
      },
      {
       "id": 2,
       "item":"shoes, shirts, caftan, palms, suit",
       "cost":"$50",
       "ratings":"",
-      "pic":"Pictures/shoes1.png" 
+      "pic":"Pictures/shoe.png" 
      },
      {
        "id": 3,
        "item":"shoes, shirts, caftan, palms, suit",
        "cost":"$50",
        "ratings":"",
-       "pic":"Pictures/shoes2.png"
+       "pic":"Pictures/shoe.png"
 },
      {
          "id": 4,
          "item":"shoes, shirts, caftan, palms, suit",
          "cost":"$50",
          "ratings":"",
-         "pic":"Pictures/shoes3.png"
+         "pic":"Pictures/shoe.png"
     },
      {
        "id": 5,
@@ -39,28 +39,28 @@
        "item":"shoes, shirts, caftan, palms, suit",
        "cost":"$50",
        "ratings":"",
-       "pic":"Pictures/shoes5.png"
+       "pic":"Pictures/shoe.png"
 },
      {
        "id": 7,
        "item":"shoes, shirts, caftan, palms, suit",
        "cost":"$50",
        "ratings":"",
-       "pic":"Pictures/shoes1.png"  
+       "pic":"Pictures/shoe.png"  
      },
      {
        "id": 8,
        "item":"shoes, shirts, caftan, palms, suit",
        "cost":"$50",
        "ratings":"",
-       "pic":"Pictures/shoes2.png"  
+       "pic":"Pictures/shoe.png"  
      },
      {
        "id": 9,
        "item":"shoes, shirts, caftan, palms, suit",
        "cost":"$50",
        "ratings":"",
-       "pic":"Pictures/shoes3.png"  
+       "pic":"Pictures/shoe.png"  
      },
      {
        "id": 10,
@@ -74,35 +74,14 @@
        "item":"shoes, shirts, caftan, palms, suit",
        "cost":"$50..",
        "ratings":"",
-       "pic":"Pictures/shoes5.png"  
+       "pic":"Pictures/shoe.png"  
      },
      {
        "id": 12,
        "item":"shoes, shirts, caftan, palms, suit",
        "cost":"$50",
        "ratings":"",
-       "pic":"Pictures/shoes2.png"  
-     },
-     {
-       "id": 13,
-       "item":"shoes, shirts, caftan, palms, suit",
-       "cost":"$50",
-       "ratings":"",
-       "pic":"Pictures/shoes1.png"  
-     },
-     {
-       "id": 14,
-       "item":"shoes, shirts, caftan, palms, suit",
-       "cost":"$50",
-       "ratings":"",
-       "pic":"Pictures/shoes2.png"  
-     },
-     {
-       "id": 15,
-       "item":"shoes, shirts, caftan, palms, suit",
-       "cost":"$50",
-       "ratings":"",
-       "pic":"Pictures/shoes3.png"  
+       "pic":"Pictures/shoe.png"  
      }
 ]
      
