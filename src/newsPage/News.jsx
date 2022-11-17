@@ -140,6 +140,15 @@ function News() {
                 </p>
               </div>
             </div>
+            <div className="letter">
+              <div className="letter-head">
+                <h2>Subscribe To The Newsletter</h2>
+              </div>
+              <div className="inp">
+                <div className="inp-text"><input type="text" placeholder='Enter your email' /></div>
+                <button>Subscribe</button>
+              </div>
+            </div>
         </div>
     </div>
   )
