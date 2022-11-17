@@ -8,7 +8,7 @@ function HomePage() {
       <div className='home-body'>
         <div className='home-bg'>
           <div className='home-text'>
-            <h1>XANTOZ GROUP</h1>
+            <h1>XANTOZ FASHION CLINIC</h1>
             <span className='trend'>Trend 2050</span>
             <p className='text'>
               <span>Oh Yass!</span><br /> We make irresistible outfits that suit YOU.

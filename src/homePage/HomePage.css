@@ -9,10 +9,11 @@
 .home-bg{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .home-text h1 {
     color: #183863;
-    font-size:70px;
+    font-size: 70px;
     font-family: Righteous, cursive ;
     font-weight: 500;
     margin: 7rem 0 0 0;
@@ -39,6 +40,7 @@
     background: #1d37fd;
     color: white;
     padding: 13px 15px;
+    margin: 10px auto 40px auto;
     border: none;
     border-radius: 100px;
     font-size: 12px;
