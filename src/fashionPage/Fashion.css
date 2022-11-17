@@ -1,0 +1,49 @@
+.fashion-body {
+    background: #c6ced1;
+}
+.world {
+    text-align: center;
+    padding: 50px 0 10px 0;
+    border-bottom: 4px solid #f3a10d;
+    width: 14%;
+    margin: auto;
+    color: #183863;
+}
+.fashion {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.fashion-text {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.text-but {
+    background-color: #ebc737;
+    color: white;
+    padding: 30px 50px;
+    margin: 10px auto 40px auto;
+    border: none;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    transform: translateZ(0);
+    transition: all .5s ease-in-out; 
+}
+.text-but:hover{
+    background: #1d37fd;
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.shop {
+    color: #c6ced1;
+    background: #c6ced1;
+    border: none;
+    padding: 13px 15px;
+    margin: 10px auto 40px auto;
+}
