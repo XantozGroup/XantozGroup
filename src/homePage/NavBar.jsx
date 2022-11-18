@@ -1,6 +1,7 @@
 import React from 'react'
 import './NavBar.css'
 import  {Phone, FacebookLogo, TwitterLogo, LinkedinLogo, InstagramLogo, Envelope, ShoppingCart, MagnifyingGlass} from 'phosphor-react'
+import Hamburger from '../Hamburger'
 
 function NavBar() {
   return (
@@ -59,6 +60,9 @@ function NavBar() {
                 <MagnifyingGlass size={20} color="#babdbe" weight="bold" />
             </div>
         </div>
+       <div className='nav-ham'>
+        <Hamburger/>
+       </div>
        </div>
         
     </div>

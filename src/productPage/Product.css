@@ -54,3 +54,36 @@
     width: 200px;
     height: 200px;
 }
+@media (max-width:500px) {
+    .product h1{
+        text-align: center;
+        border-bottom: 4px solid #f1c119;
+        width: 40%;
+        font-size: 30px;
+        color: #183863;
+        margin: 3rem auto;
+    }
+    .product {
+        margin: auto;
+        width: 100%;
+    }
+    .pro-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 100%; 
+        max-width: 1440px;
+        gap: 10px;
+    }
+    .card-cover {
+        border-bottom: 1px solid gray;
+        background-color: #f2f2f2;
+        padding: 30px 10px;
+    }
+    .card-cover img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+}

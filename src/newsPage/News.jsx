@@ -8,6 +8,9 @@ import jean from '../assets/jean-gown.jpg'
 import orangeT from '../assets/orange-trouser.jpg'
 import gownSuit from '../assets/gown-suit.png'
 import manStyle from '../assets/man-style.png'
+import money from '../assets/icon_mony.png'
+import gift from '../assets/icon_gift.png'
+import car from '../assets/icon_car.png'
 
 function News() {
   return (
@@ -149,7 +152,29 @@ function News() {
                 <button>Subscribe</button>
               </div>
             </div>
+            <div className='news-box'>
+              <div className='icons'><img src={money} alt="money" /></div>
+              <div className='icons'><img src={gift} alt="gift" /></div>
+              <div className='icons'><img src={car} alt="car" /></div>
+            </div>      
         </div>
+        <div className='gen-down'>
+          <div className='down1'>
+              <div className='down2'>
+                <h2>Information</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis modi impedit dicta nesciunt, culpa provident tempore natus sint minima illum dolor, similique minus rerum illo architecto adipisci magni tempora delectus.
+                </p>
+              </div>
+              <div className='down2'>
+                <h2>Information</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis modi impedit dicta nesciunt, culpa provident tempore natus sint minima illum dolor, similique minus rerum illo architecto adipisci magni tempora delectus.
+                </p>
+              </div>
+            </div>
+        </div>
+        
     </div>
   )
 }

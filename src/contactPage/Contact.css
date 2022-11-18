@@ -1,0 +1,79 @@
+.contact {
+    background-image: url(../assets/black-logo1.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    opacity: .8;
+    color: white;
+}
+.contact-body {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.form-input input {
+    margin-top: 20px;
+}
+.form-input textarea {
+    margin-top: 20px;
+}
+.contact-wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.contact-add a{
+    color: rgb(179, 228, 230);
+    text-decoration: none;
+}
+.contact-head h1{
+    border-bottom:5px solid #f3a10d ;
+    width: 70%;
+}
+.foot2 {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: 50px auto 0 auto;
+}
+.foot3 {
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 15px;
+    background-color: transparent;
+}
+.gabz {
+    color: grey;
+}
+@media (max-width:500px) {
+    .contact-body {
+        width: 80%;
+        margin: auto;
+        display: grid;
+        justify-content: space-between;
+    }
+    .contact-head h1{
+        border-bottom:5px solid #f3a10d ;
+        width: 50%;
+        margin: auto;
+        padding-top: 1.5rem;
+        text-align: center;
+    }
+    .form-input input {
+        margin-top: 20px;
+        width: 80%;
+    }
+    .form-input textarea {
+        margin-top: 20px;
+        width: 85%;
+    }
+    .message h2 {
+        margin-top: 4rem;
+    }
+    .contact {
+        background-image: url(../assets/black-logo1.png);
+        background-repeat:repeat-x;
+    }
+}
