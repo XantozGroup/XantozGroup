@@ -1,15 +1,15 @@
 import React from 'react'
 import './Contact.css'
-import { MapPin, Phone, EnvelopeSimple, FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo, WhatsappLogo } from 'phosphor-react';
+import { MapPin, EnvelopeSimple, FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo, WhatsappLogo } from 'phosphor-react';
 
 function Contact() {
   return (
-    <div>
+    <div className='contact'>
         <div className='contact-body'>
             <div className="contact-gen">
                 <div className="contact-head">
                     <h1 >Contact Us</h1>
-                    <div className="contact-wrap" style={{margin: '80px 0 0'}}>
+                    <div className="contact-wrap">
                         <MapPin size={32} className='
                         contact-icon' />  
                         <span> Physical Address</span>
@@ -29,20 +29,34 @@ function Contact() {
                     <span className="contact-add"><a href="mailto:chrixantoz@gmail.com">chrixantoz@gmail.com</a></span>
                 </div>
             </div>
-            <form className='formc' onSubmit={sendEmail} ref={form}>
-                <div className="colc">          
-                <h2>Send Us A Message</h2>
-                <div className="custom-input">
-                <input  placeholder='Your full name*' name="user_name" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
-                <input  placeholder='Email*' name="user_email" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
-                <input  placeholder='Phone number*' name="user_phone" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
-                <textarea placeholder="Write us a message" cols="20" rows="4" id="textc" name="message"></textarea>
-                <button title = 'SUBMIT' type = 'submit' style = {{width: '100%', margin: '8px 0% 0', padding: '.8rem', backgroundColor: '#AB7E5F'}} />
-                </div>
-                
+            <form className='contact-form'>
+                <div className="message">          
+                    <h2>Send Us A Message</h2>
+                    <div className="form-input">
+                    <input  type="text" placeholder='Your full name*' name="user_name"/><br />
+                    <input  type="text" placeholder='Email*' name="user_email"/><br />
+                    <input  type="text" placeholder='Phone number*' name="user_phone"/><br />
+                    <textarea placeholder="Write us a message" cols="63" rows="10"  name="message"></textarea><br />
+                    <button type = 'submit'>SUBMIT</button>
+                    </div> 
                 </div>
             </form>
-        </div>  
+        </div> 
+        <footer>
+            <div className='foot'>
+                <div className="foot1">
+                    <div className="foot2">
+                        <a href="https://www.facebook.com/profile.php?id=100087274729762"><p><FacebookLogo size={30} className = 'bluei' /></p></a>
+                        <a href="https://www.linkedin.com/in/codelaryTech"><p><LinkedinLogo size={30} className = 'linkd' /></p></a>
+                        <a href="https://www.instagram.com"><p><InstagramLogo size={30} className = 'insta'  /></p></a>
+                        <a href="https://www.twitter.com/codelaryTech"><p><TwitterLogo size={30} className = 'twit' /></p></a>
+                    </div>
+                </div>
+                <div className="foot3">
+                    <span>&copy; 2022 Xantoz Fashion Clinic Ltd. All Rights Reserved | <span className='gabz'>Designed with &#128150; by Gabbie</span></span>
+                </div>
+            </div>
+        </footer> 
     </div>
   )
 }
