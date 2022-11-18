@@ -3,6 +3,15 @@
     padding-top: 50px;
     border-bottom: 8px solid #f3a10d;
 }
+.clip1 img {
+    display: none;
+}
+.boss1 img {
+    display: none;
+}
+.about-ceo span {
+    color: #f3a10d;
+}
 .about-bg {
     display: flex;
     justify-content: space-between;
@@ -39,12 +48,16 @@
 @media (max-width:500px) {
     .about-bg h1 {
         border-bottom: 4px solid #f1c119;
-        width: 70%;
-        font-size: large;
+        width: 40%;
+        font-size: 30px;
+        text-align: center;
     }
     .about-ceo h1 {
         border-bottom: 4px solid #f1c119;
-        width: 40%;
+        width: 50%;
+        font-size: 30px;
+        text-align: center;
+        color: white;
     }
     .about-bg {
         display: flex;
@@ -58,4 +71,39 @@
         padding: 10px 30px;
         line-height: 2.5rem;
     }
+    .about-ceo {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        border-radius: 10px;
+        color: #183863;
+        box-shadow: rgba(65, 228, 223, 0.07) 0px 1px 1px, rgba(20, 203, 172, 0.07) 0px 2px 2px, rgba(12, 115, 141, 0.07) 0px 4px 4px, rgba(15, 110, 116, 0.07) 0px 8px 8px, rgba(5, 67, 73, 0.07) 0px 16px 16px;
+        padding: 10px 30px;
+        line-height: 2.5rem;
+        margin-top: 50px;
+        background: linear-gradient(180deg, rgba(45,58,87,1) 50%, rgba(255,255,255,1) 46%);
+    }
+    .clip img {
+        display: none;
+    }
+    .clip1 img {
+        display: block;
+        width: 350px;
+        margin: auto;
+        object-fit: cover;
+        border-bottom: 1px solid grey;
+    }
+    .boss img {
+        display: none;
+    }
+    .boss1 img{
+        display: block;
+        width: 400px;
+        margin: auto;
+        object-fit: cover;
+    }
+    .about-ceo p{
+    border-top: 1px solid grey;
+}
 }
