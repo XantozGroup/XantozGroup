@@ -55,3 +55,21 @@
     transform: scale(1.05);
     cursor: pointer;
 }
+@media (max-width:320px) {
+    .home-pix {
+        width: 200px;
+        height: 200px;
+    }
+    .home-bg{
+        display: grid;
+    }
+    .home-body {
+        width: 100%;
+        margin: auto;
+    }
+    .home {
+        background-image: url(../assets/banner.jpg);
+        border-bottom:8px solid #f3a10d ;
+        width: 400px;
+    }
+}
