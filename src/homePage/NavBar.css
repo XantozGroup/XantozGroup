@@ -341,8 +341,29 @@ body{
     .third-bar{
         display: none;
     }
-    .nav-ham{
+    .nav-ham {
         display: block;
+        padding: 20px;
+    }
+    .mails a{
+        font-size: x-small;
+    }
+    .phone-icon a{
+        font-size: x-small;
+    }
+    .select {
+        gap: 20px;
+    }
+    .select span {
+        font-size: small;
+    }
+    #select-box {
+        padding: 2px;
+        width: 75px;
+        border: 1px solid #848c9a;
+        border-radius: 15px;
+        background: transparent;
+        outline: none;
     }
     .glass {
         display: flex;
@@ -352,9 +373,6 @@ body{
         border-radius: 200px;
         width: 25%;
         margin: auto;
-    }
-    .second-nav-txt {
-        font-size: 6.5px;
     }
     .input {
         width: 70%;
@@ -389,11 +407,11 @@ body{
         width: 100%;
         margin: auto;
     }
-    .first-bar {
+    .logo a{
         display: flex;
-        justify-content: space-around;
+        gap: 6px;
+        width: 14px;
+        height: 14px;
         align-items: center;
-        width: 100%;
-        margin: auto;
     }
 }

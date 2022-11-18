@@ -55,6 +55,22 @@
     transform: scale(1.05);
     cursor: pointer;
 }
+
+@media (max-width:1643px) {
+
+}
+@media (max-width:1302px) {
+    
+}
+@media (max-width:800px) {
+  
+}
+@media (max-width:670px) {
+    
+}
+@media (max-width:500px) {
+    
+}
 @media (max-width:320px) {
     .home-pix {
         width: 200px;
