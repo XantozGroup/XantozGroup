@@ -36,3 +36,26 @@
     border-bottom: 4px solid #f1c119;
     width: 40%;
 }
+@media (max-width:500px) {
+    .about-bg h1 {
+        border-bottom: 4px solid #f1c119;
+        width: 70%;
+        font-size: large;
+    }
+    .about-ceo h1 {
+        border-bottom: 4px solid #f1c119;
+        width: 40%;
+    }
+    .about-bg {
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        background-color: white;
+        margin: auto;
+        border-radius: 10px;
+        color: #183863;
+        box-shadow: rgba(65, 228, 223, 0.07) 0px 1px 1px, rgba(20, 203, 172, 0.07) 0px 2px 2px, rgba(12, 115, 141, 0.07) 0px 4px 4px, rgba(15, 110, 116, 0.07) 0px 8px 8px, rgba(5, 67, 73, 0.07) 0px 16px 16px;
+        padding: 10px 30px;
+        line-height: 2.5rem;
+    }
+}

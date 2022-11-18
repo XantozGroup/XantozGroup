@@ -57,21 +57,215 @@
 }
 
 @media (max-width:1643px) {
+    .home-text h1 {
+        color: #183863;
+        font-size: 60px;
+        font-family: Righteous, cursive ;
+        font-weight: 500;
+        margin: 7rem 0 0 0;
+    }
+    .home-text .trend {
+        color: #ebc737;
+        font-size:60px;
+        font-weight: 600;
+        margin: 7rem 0 0 0;
+    }
+    .text {
+        font-size: 30px;
+        font-weight: lighter;
+    }
+    .text span {
+        color: #225b9d;
+        font-weight: 600;
+        font-style: oblique;
+    }
+    .collect {
+        font-size: 20px;
+    }
+}
 
+@media (max-width:1523px) {
+    .home-text h1 {
+        color: #183863;
+        font-size: 50px;
+        font-family: Righteous, cursive ;
+        font-weight: 500;
+        margin: 7rem 0 0 0;
+    }
+    .home-text .trend {
+        color: #ebc737;
+        font-size:50px;
+        font-weight: 600;
+        margin: 7rem 0 0 0;
+    }
+    .text {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .text span {
+        color: #225b9d;
+        font-weight: 600;
+        font-style: oblique;
+    }
+    .collect {
+        font-size: 15px;
+    }
 }
 @media (max-width:1302px) {
-    
+    .home-text h1 {
+        color: #183863;
+        font-size: 40px;
+        font-family: Righteous, cursive ;
+        font-weight: 500;
+        margin: 7rem 0 0 0;
+    }
+    .home-text .trend {
+        color: #ebc737;
+        font-size:40px;
+        font-weight: 600;
+        margin: 7rem 0 0 0;
+    }
+    .text {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .text span {
+        color: #225b9d;
+        font-weight: 600;
+        font-style: oblique;
+    }
+    .collect {
+        font-size: 15px;
+    }
+    .home-pix img{
+        width: 400px;
+        height: 600px;
+        object-fit: cover;
+    }
 }
-@media (max-width:800px) {
-  
+@media (max-width:1173px) {
+    .home-text h1 {
+        color: #183863;
+        font-size: 35px;
+        font-family: Righteous, cursive ;
+        font-weight: 500;
+        margin: 4rem 0 0 0;
+    }
+    .home-text .trend {
+        color: #ebc737;
+        font-size:35px;
+        font-weight: 600;
+        margin: 7rem 0 0 0;
+    }
+    .text {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .text span {
+        color: #225b9d;
+        font-weight: 600;
+        font-style: oblique;
+    }
+    .collect {
+        font-size: 15px;
+    }
+    .home-body {
+        width: 70%;
+        margin: auto;
+    }
+    .home-pix img{
+        width: 350px;
+        height: 500px;
+        object-fit: cover;
+    }
+}
+@media (max-width:897px) {
+    .home-pix img{
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .home-text h1 {
+        color: #183863;
+        font-size: 25px;
+        font-family: Righteous, cursive ;
+        font-weight: 500;
+        margin: 6rem 0 0 0;
+    }
+    .home-text .trend {
+        color: #ebc737;
+        font-size:25px;
+        font-weight: 600;
+        margin: 7rem 0 0 0;
+    }
+    .text {
+        font-size: 17px;
+        font-weight: lighter;
+    }
+    .text span {
+        color: #225b9d;
+        font-weight: 600;
+        font-style: oblique;
+    }
+    .collect {
+        font-size: 13px;
+    }
+    .home-body {
+        width: 70%;
+        margin: auto;
+    }
 }
 @media (max-width:670px) {
-    
+    .home-body {
+        width: 85%;
+        margin: auto;
+    }
 }
 @media (max-width:500px) {
-    
+    .home-text h1 {
+        color: #183863;
+        font-size: 25px;
+        font-family: Righteous, cursive ;
+        font-weight: 500;
+        margin: 6rem 0 0 0;
+    }
+    .home-text .trend {
+        color: #ebc737;
+        font-size:25px;
+        font-weight: 600;
+        margin: 7rem 0 0 0;
+    }
+    .text {
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    .text span {
+        color: #225b9d;
+        font-weight: 600;
+        font-style: oblique;
+    }
+    .collect {
+        font-size: 11px;
+    }
+    .home-body button {
+        background: #1d37fd;
+        color: white;
+        padding: 10px;
+        margin: 10px auto 40px auto;
+        border: none;
+        border-radius: 100px;
+        font-size: 12px;
+        font-weight: 300;
+        text-transform: uppercase;
+        transform: translateZ(0);
+        transition: all .5s ease-in-out; 
+    }
 }
 @media (max-width:320px) {
+    .home-body {
+        width: 80%;
+        margin: auto;
+    }
     .home-pix {
         width: 200px;
         height: 200px;
