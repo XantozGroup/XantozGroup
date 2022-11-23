@@ -144,13 +144,6 @@
     .letter-head h2{
         font-size: 30px;
     }
-    input {
-        padding: 10px;
-        border-radius: 20px;
-        border: 1px solid grey;
-        width: 200px;
-        outline: none;
-    }
     .inp {
         margin-top: 3rem;
     }
@@ -225,5 +218,8 @@
         border-bottom: 2px solid  #ebc737;
         width: 35%;
         margin-bottom: 1.2rem;
+    }
+    .news-box {
+        margin-top: 2rem;
     }
 }

@@ -100,11 +100,11 @@
     }
     .form-input input {
         margin-top: 20px;
-        width: 80%;
+        width: 100%;
     }
     .form-input textarea {
         margin-top: 20px;
-        width: 85%;
+        width: 100%;
     }
     .message h2 {
         margin-top: 4rem;
