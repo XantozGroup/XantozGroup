@@ -31,7 +31,8 @@
 }
 .contact-head h1{
     border-bottom:5px solid #f3a10d ;
-    width: 70%;
+    width: 60%;
+    font-size: x-large;
 }
 .foot2 {
     display: flex;
@@ -47,6 +48,26 @@
 }
 .gabz {
     color: grey;
+}
+.form-input button{
+    align-items: center;
+    background: #1d37fd;
+    color: white;
+    padding: 13px 20px;
+    margin: 15px auto 70px auto;
+    border: none;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+    transform: translateZ(0);
+    transition: all .5s ease-in-out;
+}
+.form-input button:hover{
+    background-color: #ebc737;
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
 }
 @media (max-width:500px) {
     .contact-body {
@@ -74,7 +95,7 @@
         margin-top: 4rem;
     }
     .contact {
-        background-image: url(../assets/black-logo1.png);
-        background-repeat:repeat-x;
+        /* background-image: url(../assets/black-logo1.png); */
+        /* background-repeat:repeat-x; */
     }
 }

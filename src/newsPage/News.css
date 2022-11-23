@@ -36,18 +36,20 @@
     cursor: pointer;
 }
 .letter {
-    display: flex;
+    /* display: flex; */
     justify-content: space-around;
     align-items: center;
 }
 .letter-head {
     font-size: 25px;
 }
-input {
+.inp-text input {
     padding: 13px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     border: 1px solid grey;
-    width: 450px;
+    background: transparent;
+    color: black;
+    width: 100%;
     outline: none;
 }
 .inp {
@@ -92,7 +94,7 @@ input {
 }
 .letter{
     /* border: 1px solid green; */
-    width: 100%;
+    width: 80%;
     height: 200px;
 }
 
@@ -221,8 +223,8 @@ input {
         flex-direction: column;
         align-items: center;
     }
-    .inp-text {
-
+    .inp-text input{
+        color: aliceblue;
     }
     .flex-news h3{
         border-bottom: 2px solid  #ebc737;
