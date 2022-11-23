@@ -5,7 +5,7 @@ import Hamburger from '../Hamburger'
 
 function NavBar() {
   return (
-    <div>
+    <div className='nav'>
         <div className='my-nav'>
         <div className='first-bar'>
             <div className='phone-icon'>

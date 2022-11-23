@@ -1,6 +1,8 @@
 .home {
     background-image: url(../assets/banner.jpg);
     border-bottom:8px solid #f3a10d ;
+    background-size: cover;
+    /* background-color: yellow; */
 }
 .home-body {
     width: 60%;
@@ -8,13 +10,14 @@
 }
 .home-bg{
     display: flex;
+    /* background-color: yellow; */
     justify-content: space-between;
     align-items: center;
+    /* width: 300px; */
 }
 .home-text h1 {
     color: #183863;
     font-size: 70px;
-    font-family: Righteous, cursive ;
     font-weight: 500;
     margin: 7rem 0 0 0;
 }
@@ -261,25 +264,30 @@
         transition: all .5s ease-in-out; 
     }
 }
-@media (max-width:320px) {
+@media (max-width:425px) {
     .home-body {
-        width: 80%;
+        width: fit-content;
         margin: auto;
     }
     .home-pix {
         width: 200px;
-        height: 200px;
+        height: 250px;
+        object-fit: cover;
     }
     .home-bg{
-        display: grid;
+        display: flex;
+        /* background-color: yellow; */
+        justify-content: space-between;
+        align-items: center;
+        width: fit-content;
     }
     .home-body {
         width: 100%;
         margin: auto;
     }
     .home {
-        background-image: url(../assets/banner.jpg);
-        border-bottom:8px solid #f3a10d ;
-        width: 400px;
+        /* background-image: url(../assets/banner.jpg); */
+        border-bottom:2px solid #183863 ;
+        /* width: 400px; */
     }
 }

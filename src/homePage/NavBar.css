@@ -1,7 +1,6 @@
-body{
-    margin: 0;
-    padding: 0;
-    /* max-width: 320px; */
+.nav {
+    background-color: yellow;
+    z-index: 4;
 }
 .my-nav {
     background-color: #ecf3fd;
@@ -413,5 +412,34 @@ body{
         width: 14px;
         height: 14px;
         align-items: center;
+    }
+}
+@media (max-width:320px) {
+    .first-bar {
+        gap: 10px;
+    }
+    .my-nav a{
+        font-size: 8px;
+    }
+    .my-nav span {
+        font-size: 8px;
+    }
+    .logo {
+        display: none;
+    }
+    #select-box {
+        padding: 0;
+    }
+    .second-bar{
+        gap: 20px;
+    }
+    .second-bar a{
+        font-size: 8px;
+    }
+    .second-bar h2{
+        font-size: xx-small;
+    }
+    .second-bar button{
+        padding: 0;
     }
 }

@@ -1,6 +1,7 @@
 .contact {
-    background-image: url(../assets/black-logo1.png);
+    /* background-image: url(../assets/black-logo1.png); */
     /* background-repeat: no-repeat; */
+    background-color: #070b26;
     background-size: cover;
     opacity: .8;
     color: white;
