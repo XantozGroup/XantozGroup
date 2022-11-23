@@ -1,6 +1,5 @@
 .gen-news {
     width: 50%;
-    background-color: yellow;
     margin: auto;
 }
 .gen-news h1 {
@@ -222,4 +221,7 @@ input {
     .gen-down {
         background: #183863;
     }
+}
+@media (max-width:425px) {
+    
 }
