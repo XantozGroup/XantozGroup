@@ -414,7 +414,7 @@
         align-items: center;
     }
 }
-@media (max-width:320px) {
+@media (max-width:425px) {
     .first-bar {
         gap: 10px;
     }
@@ -441,5 +441,8 @@
     }
     .second-bar button{
         padding: 0;
+    }
+    .second-nav-txt h2 {
+        font-size: 9px;
     }
 }
