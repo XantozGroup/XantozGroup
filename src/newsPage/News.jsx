@@ -143,7 +143,8 @@ function News() {
                 </p>
               </div>
             </div>
-            <div className="letter">
+            <div className='sub'>
+              <div className="letter">
               <div className="letter-head">
                 <h2>Subscribe To The Newsletter</h2>
               </div>
@@ -156,25 +157,10 @@ function News() {
               <div className='icons'><img src={money} alt="money" /></div>
               <div className='icons'><img src={gift} alt="gift" /></div>
               <div className='icons'><img src={car} alt="car" /></div>
-            </div>      
-        </div>
-        {/* <div className='gen-down'>
-          <div className='down1'>
-              <div className='down2'>
-                <h2>Information</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis modi impedit dicta nesciunt, culpa provident tempore natus sint minima illum dolor, similique minus rerum illo architecto adipisci magni tempora delectus.
-                </p>
-              </div>
-              <div className='down2'>
-                <h2>Information</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis modi impedit dicta nesciunt, culpa provident tempore natus sint minima illum dolor, similique minus rerum illo architecto adipisci magni tempora delectus.
-                </p>
-              </div>
+            </div> 
             </div>
-        </div> */}
-        
+                 
+        </div>      
     </div>
   )
 }

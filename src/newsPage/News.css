@@ -90,16 +90,6 @@ input {
     padding: 50px;
     margin: 20px;
 }
-.down1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    word-wrap: break-word;
-    margin: auto;
-    color: white;
-}
-
 .letter{
     /* border: 1px solid green; */
     width: 100%;
@@ -203,25 +193,35 @@ input {
         padding: 50px;
         margin: 20px;
     }
-    .down1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 60%;
-        word-wrap: break-word;
-        margin: auto;
-        color: white;
-    }
     
     .letter{
         width: 100%;
         height: 200px;
     }
     
-    .gen-down {
-        background: #183863;
-    }
 }
 @media (max-width:425px) {
-    
+    .sub {
+        background: #183863;
+    }
+    .letter-head {
+        color: white;
+    }    
+    .inp button{
+        display: flex;
+        float: left;
+        background-color: #183863;
+        color: white;
+        padding: 10px 30px;
+        margin: 10px auto 40px auto;
+        border: 1px solid white;
+    }
+    .inp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inp-text {
+        
+    }
 }
