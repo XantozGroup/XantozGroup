@@ -20,7 +20,8 @@
     border-bottom: 4px solid #f1c119;
     width: 17%;
     color: #183863;
-    margin: 3rem auto;
+    margin: auto;
+    padding: 3rem auto;
 }
 .but {
     width: 10%;
@@ -62,7 +63,7 @@
         width: 50%;
         font-size: 30px;
         color: #183863;
-        margin: 3rem auto;
+        padding: 3rem auto;
     }
     .product {
         margin: auto;
