@@ -46,10 +46,10 @@ function Contact() {
             <div className='foot'>
                 <div className="foot1">
                     <div className="foot2">
-                        <a href="https://www.facebook.com/profile.php?id=100087274729762"><p><FacebookLogo size={30} className = 'bluei' /></p></a>
-                        <a href="https://www.linkedin.com/in/codelaryTech"><p><LinkedinLogo size={30} className = 'linkd' /></p></a>
+                        <a href="https://www.facebook.com/"><p><FacebookLogo size={30} className = 'bluei' /></p></a>
+                        <a href="https://www.linkedin.com/in/"><p><LinkedinLogo size={30} className = 'linkd' /></p></a>
                         <a href="https://www.instagram.com"><p><InstagramLogo size={30} className = 'insta'  /></p></a>
-                        <a href="https://www.twitter.com/codelaryTech"><p><TwitterLogo size={30} className = 'twit' /></p></a>
+                        <a href="https://www.twitter.com/"><p><TwitterLogo size={30} className = 'twit' /></p></a>
                     </div>
                 </div>
                 <div className="foot3">

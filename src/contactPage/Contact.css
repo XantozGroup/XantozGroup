@@ -14,9 +14,20 @@
 }
 .form-input input {
     margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid grey;
+    outline: 1px solid grey;
+    color: aliceblue;
 }
 .form-input textarea {
     margin-top: 20px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid grey;
+    outline: 1px solid grey;
+    color: aliceblue;
 }
 .contact-wrap {
     display: flex;
@@ -31,8 +42,8 @@
 }
 .contact-head h1{
     border-bottom:5px solid #f3a10d ;
-    width: 60%;
-    font-size: x-large;
+    width: 80%;
+    font-size: 35px;
 }
 .foot2 {
     display: flex;
@@ -69,6 +80,9 @@
     transform: scale(1.05);
     cursor: pointer;
 }
+.foot2 a{
+    color: white;
+}
 @media (max-width:500px) {
     .contact-body {
         width: 80%;
@@ -79,6 +93,7 @@
     .contact-head h1{
         border-bottom:5px solid #f3a10d ;
         width: 50%;
+        font-size: 30px;
         margin: auto;
         padding-top: 1.5rem;
         text-align: center;
@@ -93,9 +108,5 @@
     }
     .message h2 {
         margin-top: 4rem;
-    }
-    .contact {
-        /* background-image: url(../assets/black-logo1.png); */
-        /* background-repeat:repeat-x; */
     }
 }
