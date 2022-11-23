@@ -222,6 +222,11 @@ input {
         align-items: center;
     }
     .inp-text {
-        
+
+    }
+    .flex-news h3{
+        border-bottom: 2px solid  #ebc737;
+        width: 25%;
+        margin-bottom: 1.2rem;
     }
 }
