@@ -1,5 +1,6 @@
 .gen-news {
     width: 50%;
+    background-color: yellow;
     margin: auto;
 }
 .gen-news h1 {
@@ -109,10 +110,11 @@ input {
 .gen-down {
     background: #183863;
     /* border: 1px solid red; */
+    width: 100%;
 }
 @media (max-width:500px) {
     .gen-news {
-        width: 50%;
+        width: 100%;
         margin: auto;
     }
     .gen-news h1 {
@@ -149,7 +151,7 @@ input {
         cursor: pointer;
     }
     .letter {
-        display: flex;
+        display: grid;
         justify-content: space-around;
         align-items: center;
     }

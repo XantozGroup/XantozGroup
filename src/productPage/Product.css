@@ -12,7 +12,8 @@
     width: 70%;
 }
 .pro-body {
-    background-image: url(../assets/product_bg.jpg);
+    background-color: yellow;
+    /* background-image: url(../assets/product_bg.jpg); */
 }
 .product h1{
     text-align: center;
