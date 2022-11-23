@@ -61,12 +61,10 @@
         color: white;
     }
     .about-ceo p {
-        /* border-bottom: 4px solid #f1c119; */
-        /* width: 20%; */
-        font-size: 0.2rem;
-        /* text-align: center; */
-        color: white;
-        background-color: red;
+        font-size: 1rem;
+        overflow-y: scroll;
+        color: black;
+        /* background-color: red; */
     }
     .about-bg {
         display: flex;
@@ -76,7 +74,6 @@
         margin: auto;
         border-radius: 10px;
         color: #183863;
-        box-shadow: rgba(65, 228, 223, 0.07) 0px 1px 1px, rgba(20, 203, 172, 0.07) 0px 2px 2px, rgba(12, 115, 141, 0.07) 0px 4px 4px, rgba(15, 110, 116, 0.07) 0px 8px 8px, rgba(5, 67, 73, 0.07) 0px 16px 16px;
         padding: 10px 30px;
         line-height: 2.5rem;
     }
@@ -87,12 +84,8 @@
         margin: auto;
         border-radius: 10px;
         color: #183863;
-        box-shadow: rgba(65, 228, 223, 0.07) 0px 1px 1px, rgba(20, 203, 172, 0.07) 0px 2px 2px, rgba(12, 115, 141, 0.07) 0px 4px 4px, rgba(15, 110, 116, 0.07) 0px 8px 8px, rgba(5, 67, 73, 0.07) 0px 16px 16px;
-        padding: 10px 30px;
-        line-height: 2.5rem;
         margin-top: 50px;
         background: linear-gradient(180deg, rgba(45,58,87,1) 50%, rgba(255,255,255,1) 46%);
-        background-color: red;
     }
     .clip img {
         display: none;
@@ -132,11 +125,6 @@
         width: 95%;
         background-color: white;
         margin: auto;
-        border-radius: 10px;
-        color: #183863;
-        box-shadow: rgba(65, 228, 223, 0.07) 0px 1px 1px, rgba(20, 203, 172, 0.07) 0px 2px 2px, rgba(12, 115, 141, 0.07) 0px 4px 4px, rgba(15, 110, 116, 0.07) 0px 8px 8px, rgba(5, 67, 73, 0.07) 0px 16px 16px;
-        padding: 10px 30px;
-        line-height: 2.5rem;
     }
     .clip1 img {
         display: block;
@@ -144,5 +132,29 @@
         margin: 2rem auto;
         object-fit: cover;
         border-bottom: 1px solid grey;
+    }
+    .boss1 img{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 2rem auto;
+        object-fit: fill;
+    }
+    .about-ceo {
+        display: grid;
+        justify-content: space-between;
+        width: 95%;
+        margin: auto;
+        border-radius: 10px;
+        color: #183863;
+        margin-top: 50px;
+        background: linear-gradient(180deg, rgba(45,58,87,1) 45%, rgba(255,255,255,1) 46%);
+    }
+    .about-ceo h1 {
+        border-bottom: 4px solid #f1c119;
+        width: 50%;
+        font-size: 25px;
+        text-align: center;
+        color: white;
     }
 }
