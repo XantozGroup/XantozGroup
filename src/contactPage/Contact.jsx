@@ -20,7 +20,7 @@ function Contact() {
                         contact-icon' /> 
                         <span> Let's Chat</span>
                     </div>
-                    <span className="contact-add"><a href="https://wa.me/+2348039514066">+234-80-39514066</a></span><br /><br />
+                    <span className="contact-add"><a href="https://wa.me/+2347039514066">+234-70-39514066</a></span><br /><br />
                     <div className="contact-wrap">
                         <EnvelopeSimple size={32} className='
                         contact-icon' />
