@@ -10,7 +10,7 @@ function NavBar() {
         <div className='first-bar'>
             <div className='phone-icon'>
             <Phone size={20} color="#173560" weight="thin" />
-            <a href="tel:08039514066">Call us: +234 8039514066</a>
+            <a href="tel:07039514066">Call us: +234 7039514066</a>
             </div>
             <div className='logo'>
             <a href="www.facebook.com"><FacebookLogo size={20} color="#173560" weight="fill" /></a>
