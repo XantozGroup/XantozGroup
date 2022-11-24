@@ -4,7 +4,7 @@ import lady from '../assets/lady_img.png'
 
 function HomePage() {
   return (
-    <div className='home'>
+    <div className='home' id='#'>
       <div className='home-body'>
         <div className='home-bg'>
           <div className='home-text'>
@@ -14,7 +14,7 @@ function HomePage() {
               <span>Oh Yass!</span><br /> We make irresistible outfits that suit YOU.
             </p>
             <p className='collect'>Classic fashion collections 4everrr.</p>
-            <button>Trend here &#128525;</button>
+            <button><a href='#product'>Trend here &#128525;</a></button>
           </div>
           <div className='home-pix'>
             <img src={lady} alt="lady" />

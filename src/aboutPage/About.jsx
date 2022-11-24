@@ -5,7 +5,7 @@ import Boss from '../assets/boss.png'
 
 function About() {
   return (
-    <div>
+    <div id='about'>
         <div className='about-body'>
             <div className='about-bg'>
                 <div className='about-comp'>

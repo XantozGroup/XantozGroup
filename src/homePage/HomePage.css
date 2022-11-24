@@ -52,6 +52,11 @@
     transform: translateZ(0);
     transition: all .5s ease-in-out; 
 }
+.home-body button a{
+    text-decoration: none;
+    color: white;
+
+}
 .home-body button:hover{
     background-color: #ebc737;
     color: black;

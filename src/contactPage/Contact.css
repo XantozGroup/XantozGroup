@@ -83,6 +83,9 @@
 .foot2 a{
     color: white;
 }
+#arrow {
+    float: right;
+}
 @media (max-width:500px) {
     .contact-body {
         width: 80%;
