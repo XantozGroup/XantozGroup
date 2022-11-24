@@ -1,6 +1,5 @@
 .gen-news {
     width: 50%;
-    background-color: yellow;
     margin: auto;
 }
 .gen-news h1 {
@@ -37,18 +36,20 @@
     cursor: pointer;
 }
 .letter {
-    display: flex;
+    /* display: flex; */
     justify-content: space-around;
     align-items: center;
 }
 .letter-head {
     font-size: 25px;
 }
-input {
+.inp-text input {
     padding: 13px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     border: 1px solid grey;
-    width: 450px;
+    background: transparent;
+    color: black;
+    width: 100%;
     outline: none;
 }
 .inp {
@@ -91,27 +92,12 @@ input {
     padding: 50px;
     margin: 20px;
 }
-.down1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    word-wrap: break-word;
-    margin: auto;
-    color: white;
-}
-
 .letter{
     /* border: 1px solid green; */
-    width: 100%;
+    width: 80%;
     height: 200px;
 }
 
-.gen-down {
-    background: #183863;
-    /* border: 1px solid red; */
-    width: 100%;
-}
 @media (max-width:500px) {
     .gen-news {
         width: 100%;
@@ -121,7 +107,7 @@ input {
         text-align: center;
         padding: 40px 0 0 0;
         border-bottom: 4px solid  #ebc737;
-        width: 95%;
+        width: 50%;
         font-size: 30px;
         margin: auto;
         color: #183863;
@@ -157,13 +143,6 @@ input {
     }
     .letter-head h2{
         font-size: 30px;
-    }
-    input {
-        padding: 10px;
-        border-radius: 20px;
-        border: 1px solid grey;
-        width: 200px;
-        outline: none;
     }
     .inp {
         margin-top: 3rem;
@@ -204,22 +183,43 @@ input {
         padding: 50px;
         margin: 20px;
     }
-    .down1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 60%;
-        word-wrap: break-word;
-        margin: auto;
-        color: white;
-    }
     
     .letter{
         width: 100%;
         height: 200px;
     }
     
-    .gen-down {
+}
+@media (max-width:425px) {
+    .sub {
         background: #183863;
+    }
+    .letter-head {
+        color: white;
+    }    
+    .inp button{
+        display: flex;
+        /* float: left; */
+        background-color: #183863;
+        color: white;
+        padding: 10px 30px;
+        margin: 10px auto 40px auto;
+        border: 1px solid white;
+    }
+    .inp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inp-text input{
+        color: aliceblue;
+    }
+    .flex-news h3{
+        border-bottom: 2px solid  #ebc737;
+        width: 35%;
+        margin-bottom: 1.2rem;
+    }
+    .news-box {
+        margin-top: 2rem;
     }
 }

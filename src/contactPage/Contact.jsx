@@ -20,7 +20,7 @@ function Contact() {
                         contact-icon' /> 
                         <span> Let's Chat</span>
                     </div>
-                    <span className="contact-add"><a href="https://wa.me/08039514066">+234-80-39514066</a></span><br /><br />
+                    <span className="contact-add"><a href="https://wa.me/+2348039514066">+234-80-39514066</a></span><br /><br />
                     <div className="contact-wrap">
                         <EnvelopeSimple size={32} className='
                         contact-icon' />
@@ -46,10 +46,10 @@ function Contact() {
             <div className='foot'>
                 <div className="foot1">
                     <div className="foot2">
-                        <a href="https://www.facebook.com/profile.php?id=100087274729762"><p><FacebookLogo size={30} className = 'bluei' /></p></a>
-                        <a href="https://www.linkedin.com/in/codelaryTech"><p><LinkedinLogo size={30} className = 'linkd' /></p></a>
+                        <a href="https://www.facebook.com/"><p><FacebookLogo size={30} className = 'bluei' /></p></a>
+                        <a href="https://www.linkedin.com/in/"><p><LinkedinLogo size={30} className = 'linkd' /></p></a>
                         <a href="https://www.instagram.com"><p><InstagramLogo size={30} className = 'insta'  /></p></a>
-                        <a href="https://www.twitter.com/codelaryTech"><p><TwitterLogo size={30} className = 'twit' /></p></a>
+                        <a href="https://www.twitter.com/"><p><TwitterLogo size={30} className = 'twit' /></p></a>
                     </div>
                 </div>
                 <div className="foot3">

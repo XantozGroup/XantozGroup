@@ -68,20 +68,5 @@
        "cost":"$50.00",
        "ratings":"",
        "pic":"Pictures/shoes4.png"  
-     },
-     {
-       "id": 11,
-       "item":"shoes, shirts, caftan, palms, suit",
-       "cost":"$50.00",
-       "ratings":"",
-       "pic":"Pictures/shoe.png"  
-     },
-     {
-       "id": 12,
-       "item":"shoes, shirts, caftan, palms, suit",
-       "cost":"$50",
-       "ratings":"",
-       "pic":"Pictures/shoe.png"  
      }
 ]
-     
