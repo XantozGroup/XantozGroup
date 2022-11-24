@@ -1,10 +1,10 @@
 import React from 'react'
 import './Contact.css'
-import { MapPin, EnvelopeSimple, FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo, WhatsappLogo } from 'phosphor-react';
+import { MapPin, EnvelopeSimple, FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo, WhatsappLogo, ArrowCircleUp } from 'phosphor-react';
 
 function Contact() {
   return (
-    <div className='contact'>
+    <div className='contact' id='contact'>
         <div className='contact-body'>
             <div className="contact-gen">
                 <div className="contact-head">
@@ -53,7 +53,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className="foot3">
-                    <span>&copy; 2022 Xantoz Fashion Clinic Ltd. All Rights Reserved | <span className='gabz'>Designed with &#128150; by Gabbie</span></span>
+                    <span>&copy; 2022 Xantoz Fashion Clinic Ltd. All Rights Reserved | <span className='gabz'>Designed with &#128150; by Gabbie</span></span><span id='arrow'><a href="#"><ArrowCircleUp size={40} color="#ffffff" weight="thin" /></a></span>
                 </div>
             </div>
         </footer> 

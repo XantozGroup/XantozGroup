@@ -5,7 +5,7 @@ import users from './users.json'
 
 function Product() {
   return (
-    <div className='pro-body'>
+    <div className='pro-body' id='product'>
         <div className='product'>
         <h1>Our Products</h1>
         <div className='pro-user'>

@@ -47,12 +47,11 @@ function NavBar() {
         <div className='third-bar'>
             <div className='lists'>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Product</li>
-                    <li>Fashion</li>
-                    <li>Updates</li>
-                    <li>Say Hi</li>
+                    <a href='#'><li>Home</li></a> 
+                    <a href='#about'><li>About</li></a>                  
+                    <a href='#product'><li>Product</li></a>
+                    <a href='#news'><li>Updates</li></a>
+                    <a href='#contact'><li>Say Hi</li></a>                
                 </ul>
             </div>
             <div className='glass'>

@@ -11,11 +11,11 @@ function Hamburger() {
                 <span className='ham-span'></span>
                 {/* <List size={50} /> */}
                 <ul className='hamburger'>
-                  <li><a href="#homepage-us"> Home</a></li>
-                  <li><a href="#about-us"> About Us</a></li>
-                  <li><a href="#our-services-us"> Our Services</a></li>
-                  <li><a href="#our-team-us"> Our Team</a></li>
-                  <li><a href="#contact-us"> Contact Us</a></li>
+                  <a href='#'><li>Home</li></a> 
+                  <a href='#about'><li>About</li></a>                  
+                  <a href='#product'><li>Product</li></a>
+                  <a href='#news'><li>Updates</li></a>
+                  <a href='#contact'><li>Say Hi</li></a>  
                 </ul>
         </div>
     </div>

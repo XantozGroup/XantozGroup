@@ -14,7 +14,7 @@ import car from '../assets/icon_car.png'
 
 function News() {
   return (
-    <div className='news-body'>
+    <div className='news-body' id='news'>
         <div className='gen-news'>
             <h1>Latest News</h1>
             <div className='flex-news'>
